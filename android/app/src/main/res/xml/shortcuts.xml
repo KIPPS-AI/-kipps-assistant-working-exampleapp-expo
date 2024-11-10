@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+<shortcut
+        android:shortcutId="valet"
+        android:shortcutShortLabel="@string/activity_valet">
+        <capability-binding android:key="actions.intent.START_EXERCISE">
+            <parameter-binding
+                android:key="exercise.name"
+                android:value="@array/valetSynonyms"/>
+        </capability-binding>
+    </shortcut>
+   <capability android:name="actions.intent.START_EXERCISE">
+  <intent>
+    <url-template android:value="kippscom://start/{?exercise}" />
+    <parameter android:name="exercise.name" android:key="exercise" />
+  </intent>
+</capability>
+</shortcuts>

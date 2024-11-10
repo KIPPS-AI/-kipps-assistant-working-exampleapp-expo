@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="valetSynonyms">
+        <item>my valet</item>
+        <item>valet</item>
+        <item>voicebot</item>
+        <item>voice bot</item>
+        <item>book valet</item>
+        <item>kipps</item>
+        <item>kipps ai</item>
+    </array>
+</resources>
